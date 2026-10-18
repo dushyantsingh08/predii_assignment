@@ -1,0 +1,32 @@
+query,component,spec_type,value,unit,alt_values,condition,notes,section,page,also_found_in,source,verified
+Torque for brake caliper bolts,Brake caliper anchor plate bolts,Torque,250,Nm,184 lb-ft,,,206-03 Front Disc Brake,636,,table,True
+Torque for brake caliper bolts,Brake caliper flow bolt,Torque,35,Nm,26 lb-ft,,,206-03 Front Disc Brake,636,206-04 Rear Disc Brake p.652,table,True
+Torque for brake caliper bolts,Brake caliper guide pin bolts,Torque,37,Nm,27 lb-ft,,,206-03 Front Disc Brake,636,,table,True
+Torque for brake caliper bolts,Brake caliper guide pin bolts,Torque,33,Nm,24 lb-ft,,,206-04 Rear Disc Brake,652,,table,True
+Torque for brake caliper bolts,Brake caliper support bracket bolts,Torque,150,Nm,111 lb-ft,,,206-04 Rear Disc Brake,652,,table,True
+Brake fluid capacity,Motorcraft High Performance DOT 3 Motor Vehicle Brake Fluid (US) / Motorcraft Brake Fluid - Heavy Duty DOT 3 (Canada),Fluid Capacity,740,ml,1.56 pt,,,206-06 Hydraulic Brake Actuation,696,206-09 Anti-Lock Brake System (ABS) and Stability Control p.747,table,True
+Brake fluid capacity,High Performance DOT 3 Motor Vehicle Brake Fluid,Fluid Capacity,1420,ml,3.0 pt,,,206-04 Rear Disc Brake,652,206-03 Front Disc Brake p.636; 206-00 Brake System — General Information p.599,table,True
+Rear axle lubricant fill capacity,Motorcraft SAE 80W-90 Premium Rear Axle Lubricant,Fluid Capacity,1.66,L,3.5 pt,,,205-03 Front Drive Axle/Differential,449,,table,True
+Rear axle lubricant fill capacity,Motorcraft SAE 75W-140 Synthetic Rear Axle Lubricant,Fluid Capacity,2.84,L,6.0 pt,,(to the bottom of the filler hole),205-02A Rear Drive Axle/Differential — Ford 8.8-Inch Ring Gear,258,,table,True
+Front axle lubricant capacity,Motorcraft SAE 80W-90 Premium Rear Axle Lubricant,Fluid Capacity,1.66,L,3.5 pt,,,205-03 Front Drive Axle/Differential,449,,table,True
+Part number for shock absorber lower bolt,Shock absorber lower bolt,Part Number,W506545,,,,Shock Absorber; callout 1,204-02 Rear Suspension,133,204-02 Rear Suspension p.132; 204-02 Rear Suspension p.135,table,True
+Part number for shock absorber lower bolt,Lower shock absorber bolts (2 required),Part Number,W506545,,,,Axle Assembly; callout 4,205-02A Rear Drive Axle/Differential — Ford 8.8-Inch Ring Gear,330,205-02B Rear Drive Axle/Differential — Ford 9.75-Inch Ring Gear p.437,table,True
+Part number for shock absorber lower bolt,Shock absorber lower nut,Part Number,W520214,,,,Shock Absorber; callout 2,204-02 Rear Suspension,133,204-02 Rear Suspension p.132; 204-02 Rear Suspension p.135,table,True
+Part number for shock absorber lower bolt,Shock absorber shield bolt (3 required),Part Number,18A149-B,,,,Shock Absorber; callout 7,204-02 Rear Suspension,133,,table,True
+Part number for shock absorber lower bolt,Lower shock absorber nuts (2 required),Part Number,W520214,,,,Axle Assembly; callout 3,205-02A Rear Drive Axle/Differential — Ford 8.8-Inch Ring Gear,330,205-02B Rear Drive Axle/Differential — Ford 9.75-Inch Ring Gear p.437,table,True
+Brake fluid specification,Motorcraft High Performance DOT 3 Motor Vehicle Brake Fluid (US) / Motorcraft Brake Fluid - Heavy Duty DOT 3 (Canada),Part Number,PM-1-C (US); CPM-1-C (Canada),,,,,206-06 Hydraulic Brake Actuation,696,206-09 Anti-Lock Brake System (ABS) and Stability Control p.747; 206-04 Rear Disc Brake p.652; 206-06 Hydraulic Brake Actuation p.725; 206-00 Brake System — General Information p.606; 206-03 Front Disc Brake p.636,table,True
+Brake fluid specification,Motorcraft High Performance DOT 3 Motor Vehicle Brake Fluid (US) / Motorcraft Brake Fluid - Heavy Duty DOT 3 (Canada),Fluid Specification,WSS-M6C62-A or WSS-M6C65-A1,,,,,206-06 Hydraulic Brake Actuation,696,206-09 Anti-Lock Brake System (ABS) and Stability Control p.747; 206-04 Rear Disc Brake p.652; 206-06 Hydraulic Brake Actuation p.725; 206-00 Brake System — General Information p.606; 206-03 Front Disc Brake p.636,table,True
+Front brake disc minimum thickness,Front brake disc minimum thickness,Specification,32,mm,1.259 in,,,206-00 Brake System — General Information,599,,table,True
+Front brake disc minimum thickness,Brake disc minimum thickness,Specification,32,mm,1.259 in,,,206-03 Front Disc Brake,636,,table,True
+Front brake disc minimum thickness,Brake pad minimum thickness,Specification,3.0,mm,0.118 in,,Brake Pads,206-03 Front Disc Brake,636,,table,True
+Lower ball joint nut torque,Lower ball joint nut,Torque,175,Nm,129 lb-ft,,,204-01B Front Suspension — Four Wheel Drive (4WD),59,204-01A Front Suspension — Rear Wheel Drive (RWD) p.24,table,True
+Tie-rod end nut tightening torque,Tie-rod end nut,Torque,115,Nm,85 lb-ft,,,205-04 Front Drive Halfshafts,578,204-01A Front Suspension — Rear Wheel Drive (RWD) p.24; 204-01B Front Suspension — Four Wheel Drive (4WD) p.59; 205-04 Front Drive Halfshafts p.585,table,True
+Tie-rod end nut tightening torque,Tie-rod end jam nut,Torque,103,Nm,76 lb-ft,,Procedure text (Toe Adjustment — Front); component named in procedure text,204-00 Suspension System — General Information,22,,text,True
+Tie-rod end nut tightening torque,Shock Absorber and Spring Assembly: Tie-rod end nut / Upper ball joint nut,Torque,115,Nm,85 lb-ft,,Procedure text (Installation); value matches several rows of the section's torque table,204-01B Front Suspension — Four Wheel Drive (4WD),103,,text,True
+Pinion bearing rotational preload,Pinion bearing rotational preload,Specification,1.5-3.0,Nm,13-26 lb-in,,,205-02A Rear Drive Axle/Differential — Ford 8.8-Inch Ring Gear,258,,table,True
+Pinion bearing rotational preload,Pinion bearing torque preload,Specification,1.8-3.3,Nm,16-29 lb-in,,Rotational Torque Ranges,205-03 Front Drive Axle/Differential,449,,table,True
+Pinion bearing rotational preload,Pinion bearing preload,Specification,1.8-3.3,Nm,16-29 lb-in,,,205-02B Rear Drive Axle/Differential — Ford 9.75-Inch Ring Gear,341,,table,True
+TPMS valve stem sensor screw torque,Valve stem-to-Tire Pressure Monitoring System (TPMS) sensor screw,Torque,1.5,Nm,13 lb-in,,,204-04 Wheels and Tires,140,,table,True
+TPMS valve stem sensor screw torque,Valve stem-to- TPMS sensor screw,Torque,1.5,Nm,13 lb-in,,Procedure text (Assembly); component named in procedure text,204-04 Wheels and Tires,148,,text,True
+Rear driveshaft center bearing bolt torque,Rear driveshaft center bearing bolts,Torque,48,Nm,35 lb-ft,,,205-01 Driveshaft,234,,table,True
+Rear driveshaft center bearing bolt torque,Driveshaft center bearing bolts,Torque,48,Nm,35 lb-ft,,Procedure text (Removal and Installation); component named in procedure text,205-01 Driveshaft,253,,text,True

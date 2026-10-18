@@ -1,0 +1,52 @@
+{
+  "_comment": "Expected values were read directly from the raw PDF text (pdftotext), not from the parser. 'page' is the 1-based PDF page (or a list when the same fact is printed on several pages). 'match' tokens must all appear in component+section. Use value or value_contains.",
+  "queries": [
+    {"query": "Torque for brake caliper bolts", "expected": [
+      {"match": ["guide pin"], "value": "37", "unit": "Nm", "page": 636},
+      {"match": ["anchor plate"], "value": "250", "unit": "Nm", "page": 636},
+      {"match": ["flow bolt"], "value": "35", "unit": "Nm", "page": 636},
+      {"match": ["guide pin"], "value": "33", "unit": "Nm", "page": 652},
+      {"match": ["support bracket"], "value": "150", "unit": "Nm", "page": 652}]},
+    {"query": "Torque for brake caliper guide pin bolts", "expected": [
+      {"match": ["guide pin"], "value": "37", "unit": "Nm", "page": 636},
+      {"match": ["guide pin"], "value": "33", "unit": "Nm", "page": 652}]},
+    {"query": "Front brake caliper anchor plate bolt torque", "expected": [
+      {"match": ["anchor plate"], "value": "250", "unit": "Nm", "page": 636}]},
+    {"query": "Brake caliper bleed screw torque", "expected": [
+      {"match": ["bleed screw"], "value": "10", "unit": "Nm", "page": 599}]},
+    {"query": "Shock absorber lower nut torque", "expected": [
+      {"match": ["shock absorber lower nut"], "value": "90", "unit": "Nm", "page": 24}]},
+    {"query": "Lower ball joint nut torque", "expected": [
+      {"match": ["lower ball joint"], "value": "175", "unit": "Nm", "page": 24}]},
+    {"query": "Tie-rod end nut tightening torque", "expected": [
+      {"match": ["tie-rod"], "value": "115", "unit": "Nm", "page": 24}]},
+    {"query": "Rear driveshaft center bearing bolt torque", "expected": [
+      {"match": ["center bearing"], "value": "48", "unit": "Nm", "page": 234}]},
+    {"query": "TPMS valve stem sensor screw torque", "expected": [
+      {"match": ["valve stem"], "value": "1.5", "unit": "Nm", "page": 140}]},
+    {"query": "Brake fluid capacity", "expected": [
+      {"match": ["brake fluid"], "value": "1420", "unit": "ml", "page": 599},
+      {"match": ["brake fluid"], "value": "1420", "unit": "ml", "page": 636}]},
+    {"query": "Rear axle lubricant fill capacity", "expected": [
+      {"match": ["axle lubricant"], "value": "2.84", "unit": "L", "page": 258}]},
+    {"query": "Front axle lubricant capacity", "expected": [
+      {"match": ["axle lubricant"], "value": "1.66", "unit": "L", "page": 449}]},
+    {"query": "Part number for brake fluid", "expected": [
+      {"match": ["brake fluid"], "value_contains": "PM-1-C", "page": [599, 606, 636, 649, 652, 696, 725, 747, 812]}]},
+    {"query": "Brake fluid specification", "expected": [
+      {"match": ["brake fluid"], "value_contains": "WSS-M6C62-A", "page": [599, 606, 636, 649, 652, 696, 725, 747, 812]}]},
+    {"query": "Part number for shock absorber lower bolt", "expected": [
+      {"match": ["shock absorber lower bolt"], "value": "W506545", "page": 132}]},
+    {"query": "Front brake disc minimum thickness", "expected": [
+      {"match": ["disc minimum thickness"], "value": "32", "unit": "mm", "page": 636}]},
+    {"query": "Rear brake disc minimum thickness", "expected": [
+      {"match": ["rear brake disc"], "value": "23.0", "unit": "mm", "page": 599}]},
+    {"query": "Brake pad minimum thickness", "expected": [
+      {"match": ["pad minimum thickness"], "value": "3.0", "unit": "mm", "page": 636}]},
+    {"query": "Differential case maximum runout", "expected": [
+      {"match": ["case maximum runout"], "value": "0.076", "unit": "mm", "page": 258}]},
+    {"query": "Pinion bearing rotational preload", "expected": [
+      {"match": ["pinion bearing"], "value": "1.5-3.0", "unit": "Nm", "page": 258}]},
+    {"query": "Torque for spark plugs", "expected": [], "note": "not covered by this manual (suspension, driveline, brakes): must return nothing"}
+  ]
+}

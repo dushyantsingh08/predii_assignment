@@ -1,0 +1,13 @@
+# one question per line
+Torque for brake caliper bolts
+Brake fluid capacity
+Rear axle lubricant fill capacity
+Front axle lubricant capacity
+Part number for shock absorber lower bolt
+Brake fluid specification
+Front brake disc minimum thickness
+Lower ball joint nut torque
+Tie-rod end nut tightening torque
+Pinion bearing rotational preload
+TPMS valve stem sensor screw torque
+Rear driveshaft center bearing bolt torque

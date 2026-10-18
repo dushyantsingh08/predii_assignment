@@ -1,0 +1,180 @@
+{
+  "query": "Torque for brake caliper bolts",
+  "intent": "torque",
+  "mode": "rules",
+  "llm": "",
+  "warnings": [],
+  "results": [
+    {
+      "component": "Brake caliper anchor plate bolts",
+      "spec_type": "Torque",
+      "value": "250",
+      "unit": "Nm",
+      "alt_values": [
+        {
+          "value": "184",
+          "unit": "lb-ft"
+        }
+      ],
+      "section": "206-03 Front Disc Brake",
+      "page": 636,
+      "source": "table",
+      "verified": true,
+      "evidence": "Brake caliper anchor plate bolts | 250 | 184 | —",
+      "chunk_id": "d118-02",
+      "also_found_in": []
+    },
+    {
+      "component": "Brake caliper flow bolt",
+      "spec_type": "Torque",
+      "value": "35",
+      "unit": "Nm",
+      "alt_values": [
+        {
+          "value": "26",
+          "unit": "lb-ft"
+        }
+      ],
+      "section": "206-03 Front Disc Brake",
+      "page": 636,
+      "source": "table",
+      "verified": true,
+      "evidence": "Brake caliper flow bolt | 35 | 26 | —",
+      "chunk_id": "d118-02",
+      "also_found_in": [
+        "206-04 Rear Disc Brake p.652"
+      ]
+    },
+    {
+      "component": "Brake caliper guide pin bolts",
+      "spec_type": "Torque",
+      "value": "37",
+      "unit": "Nm",
+      "alt_values": [
+        {
+          "value": "27",
+          "unit": "lb-ft"
+        }
+      ],
+      "section": "206-03 Front Disc Brake",
+      "page": 636,
+      "source": "table",
+      "verified": true,
+      "evidence": "Brake caliper guide pin bolts | 37 | 27 | —",
+      "chunk_id": "d118-02",
+      "also_found_in": []
+    },
+    {
+      "component": "Brake caliper guide pin bolts",
+      "spec_type": "Torque",
+      "value": "33",
+      "unit": "Nm",
+      "alt_values": [
+        {
+          "value": "24",
+          "unit": "lb-ft"
+        }
+      ],
+      "section": "206-04 Rear Disc Brake",
+      "page": 652,
+      "source": "table",
+      "verified": true,
+      "evidence": "Brake caliper guide pin bolts | 33 | 24 | —",
+      "chunk_id": "d127-02",
+      "also_found_in": []
+    },
+    {
+      "component": "Brake caliper support bracket bolts",
+      "spec_type": "Torque",
+      "value": "150",
+      "unit": "Nm",
+      "alt_values": [
+        {
+          "value": "111",
+          "unit": "lb-ft"
+        }
+      ],
+      "section": "206-04 Rear Disc Brake",
+      "page": 652,
+      "source": "table",
+      "verified": true,
+      "evidence": "Brake caliper support bracket bolts | 150 | 111 | —",
+      "chunk_id": "d127-02",
+      "also_found_in": []
+    }
+  ],
+  "retrieved": [
+    {
+      "chunk": "d118-02",
+      "pages": [
+        636,
+        636
+      ],
+      "type": "torque_table",
+      "section": "206-03 Front Disc Brake",
+      "score": 0.06095,
+      "dense_rank": 0,
+      "sparse_rank": 0
+    },
+    {
+      "chunk": "d127-02",
+      "pages": [
+        652,
+        652
+      ],
+      "type": "torque_table",
+      "section": "206-04 Rear Disc Brake",
+      "score": 0.05997,
+      "dense_rank": 1,
+      "sparse_rank": 1
+    },
+    {
+      "chunk": "d107-02",
+      "pages": [
+        599,
+        599
+      ],
+      "type": "torque_table",
+      "section": "206-00 Brake System — General Information",
+      "score": 0.04917,
+      "dense_rank": 4,
+      "sparse_rank": 2
+    },
+    {
+      "chunk": "d136-02",
+      "pages": [
+        672,
+        672
+      ],
+      "type": "torque_table",
+      "section": "206-05 Parking Brake and Actuation",
+      "score": 0.04673,
+      "dense_rank": 10,
+      "sparse_rank": 3
+    },
+    {
+      "chunk": "d102-02",
+      "pages": [
+        578,
+        578
+      ],
+      "type": "torque_table",
+      "section": "205-04 Front Drive Halfshafts",
+      "score": 0.04115,
+      "dense_rank": 28,
+      "sparse_rank": 6
+    },
+    {
+      "chunk": "d147-01",
+      "pages": [
+        696,
+        696
+      ],
+      "type": "torque_table",
+      "section": "206-06 Hydraulic Brake Actuation",
+      "score": 0.04066,
+      "dense_rank": 24,
+      "sparse_rank": 10
+    }
+  ]
+}
